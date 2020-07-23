@@ -1,0 +1,164 @@
+body {
+    font-size: small;
+    font-family: arial, sans-serif;
+    height: 100%;
+    background-color: #ffffff;
+    color: #222222;
+    position: relative;
+}
+/* main header styles. styles place below this comment
+are for the main and first header on the page that 
+includes the top links*/
+#main-header{
+    position: relative;
+    width: 1250px;
+}
+#main-nav-div {
+    float: right;
+}
+#main-nav-div div {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+ li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+ a{
+    text-decoration: none;
+    color: #222222;
+}
+#div-sub a:hover{
+    text-decoration: #222222 underline;
+}
+#div-sub2 a {
+    text-decoration: none;
+    display:inline-block;
+}
+#div-sub2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+/* header styles end here. styles above this comment are for the main header
+*/
+
+/* main content style including the logo, search field and more*/
+
+#main-content {
+    clear: both;
+    width: 1250px;
+    height: 90vh;
+    position: relative;
+   
+    
+}
+#main-content-section {
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+}
+#main-content-header{
+ text-align: center;
+ margin-bottom: 10px;
+}
+#search-area{
+    width: 100%;
+    
+}
+#search-content-div{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    border-radius: 40px;
+    border: 1px solid #e0dbdb;
+    padding:1px;
+    height: 42px;
+    
+
+}
+#search-content-div:hover{
+       box-shadow: 1px 1px 0 3px #f3eded;
+}
+#search-content{
+    width: 10%;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    text-align: center;
+    cursor: default;
+    color: #222222;
+    opacity: 0.4;
+}
+
+#input-content{
+    width: 78%;
+    position: absolute;
+    left: 11%;
+}
+input{
+    width: 100%;
+    padding: 14px 1px;
+    outline: none;
+    border: none;
+}
+#voice-search{
+    width: 10%;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 20px;
+    clear: both;
+}
+#buttons *{
+    display: inline-block;
+}
+#buttons button{
+    padding: 12px;
+    border: none;
+    color: #3b3b3b;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-right: 6px;
+    font-size: 1.1em;
+    font-family: arial;
+    cursor: pointer;
+
+}
+#buttons button:hover {
+    border: 1px solid #222222;
+}
+/* main style end here*/
+
+/* footer style is below*/
+footer {
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #e4e1e1;
+    font-size: 1.1em;
+}
+#footer-section1{
+    float: left;
+}
+#footer-section2{
+    float: right;
+
+}
+footer ul{
+    float: left;
+}
+/*footer style end here*/
